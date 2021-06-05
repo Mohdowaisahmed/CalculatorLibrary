@@ -18,3 +18,6 @@ class TestCalculator:
 
     def test_division(self):
         assert 10 == calculator.divide(100, 10)
+
+    def test_percentage(self):
+        assert 10 == calculator.test_percentage(100, 10)
